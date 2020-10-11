@@ -1,0 +1,55 @@
+.container{
+    margin: 50px 0;
+}
+.card{
+    margin: 0 2% !important;
+    box-shadow: 5px 0px 8px 6px #eae5e5 !important;
+}
+.infected{
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+
+}
+.recoverd{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+
+}
+.deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+
+}
+h5{
+    color: #e41d0f !important;
+}
+
+.para_1{
+    color:blue !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
+.para_2{
+    color:green !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
+.para_3{
+    color:red !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
+.para_a{
+    color: black !important;
+    font-size: 17px;
+}
+.para_b{
+    color:black !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+@media(max-width:770px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
